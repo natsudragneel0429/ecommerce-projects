@@ -1,4 +1,4 @@
-import './header.css';
+import { Header } from '../components/header';
 import './TrackingPage.css';
 
 export function TrackingPage(){
@@ -6,6 +6,7 @@ export function TrackingPage(){
 
     <>
     <title>Tracking</title>
+    <Header/>
             <div className="header">
       <div className="left-section">
         <a href="/" className="header-link">
