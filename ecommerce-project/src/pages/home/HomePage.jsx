@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useEffect,useState } from 'react';
-import { Header } from '../../components/header';
+import {Header}from '../../components/Header';
 import './HomePage.css';
 import { ProductsGrid } from './ProductsGrid';
 export function HomePage({cart, loadCart}) {
