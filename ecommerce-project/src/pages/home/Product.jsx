@@ -76,6 +76,7 @@ export function Product({product, loadCart}){
                                         //     });
                                         //     await loadCart();
                                         // }}
+                                        data-testid="add-to-cart-button"
                                         onClick={addToCart}
                                         >
                                             Add to Cart
